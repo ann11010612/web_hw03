@@ -18,7 +18,42 @@
       </header>
       <article id="maincontent" class="mx-5 pb-5 bg-light">
         <section id="titlebar">
-          <img src="/images/header2.jpg" alt="cute children" class="mx-auto d-block"/>
+          <!--<img src="/images/header2.jpg" alt="cute children" class="mx-auto d-block"/>-->
+          <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/images/header.jpg" alt="Penguins" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/header2.jpg" alt="Cute Children" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/header3.jpg" alt="Kids and Dog" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/header4.jpg" alt="Princess and Magical Tree" class="d-block w-100">
+              </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
         </section>
         <!--<div class="row">
           <ul>
@@ -86,13 +121,13 @@
               <h1>Lorem ipsum dolor</h1>
               <ul id="port">
                 <li>
-                    <img src="/images/img3.jpg" alt="comp0" class="col-6"></li>
+                    <img src="/images/img3.jpg" alt="comp0"></li>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt aliquam nesciunt consequatur?</p>
-                <li><img src="/images/img1.jpg" alt="comp1" class="col-6"></li>
+                <li><img src="/images/img1.jpg" alt="comp1"></li>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt aliquam nesciunt consequatur?</p>
-                <li><img src="/images/img4.jpg" alt="comp2" class="col-6"></li>
+                <li><img src="/images/img4.jpg" alt="comp2"></li>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt aliquam nesciunt consequatur?</p>
-                <li><img src="/images/img2.jpg" alt="comp3" class="col-6"></li>
+                <li><img src="/images/img2.jpg" alt="comp3"></li>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt aliquam nesciunt consequatur?</p>
               </ul>
             </div>
