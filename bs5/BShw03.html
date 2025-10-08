@@ -12,15 +12,14 @@
   <body>
     <div class="bg-primary">
       <header id="masthead">
-        <div id="container" class="container"></div>
         <h1 class="text-white">FTDBLUEMOOD</h1>
         <div class="text-white size-em">Lorem ipsum dolor sit amet</div>
       </header>
-      <article id="maincontent" class="bg-light m">
+      <article id="maincontent" class="mx-5 pb-5 bg-light">
         <section id="titlebar">
-          <img src="/images/header2.jpg" alt="cute children" class="float"/>
+          <img src="/images/header2.jpg" alt="cute children" class="mx-auto d-block"/>
         </section>
-        <div class="row">
+        <!--<div class="row">
           <ul>
             <li>
               <a title="home" href="home.html">Home</a>
@@ -30,24 +29,51 @@
               <a title="contact" href="contact.html">Contact</a>
             </li>
           </ul>
-        </div>
+        </div>-->
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+          <div class="container-fluid">
+            <!--<a class="navbar-brand" href="#">Logo</a>-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" title="home" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" title="blog" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" title="gallery" href="gallery.html">Gallery</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" title="about" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" title="contact" href="contact.html">Contact</a>
+              </ul>
+            </div>
+          </div>
+</nav>
         <section class="container" id="mainfeatures">
           <div class="row">
             <div class="col-4">
               <h1>Your Options</h1>
-              <img src="/images/img1.png" alt="bulb" />
+              <img class="float-start" src="/images/img1.png" alt="bulb" />
               <a title="View Our Options" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla?</a>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, reiciendis.</p>
             </div>
             <div class="col-4">
               <h1>Company News</h1>
-              <img src="/images/img2.png" alt="clock" />
+              <img class="float-start" src="/images/img2.png" alt="clock" />
               <a title="View Company News" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi?</p>
             </div>
             <div class="col-4">
               <h1>Have a Question?</h1>
-              <img src="/images/img3.png" alt="clock" />
+              <img class="float-start" src="/images/img3.png" alt="clock" />
               <a title="View Company News" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi?</p>
             </div>
